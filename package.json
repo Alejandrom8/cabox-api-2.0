@@ -1,0 +1,29 @@
+{
+  "name": "cabox-api",
+  "version": "1.0.0",
+  "description": "",
+  "author": "axolote <ale.wild.ones@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "sync": "node ./sync.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.23",
+    "pino": "^6.11.3",
+    "pino-http": "^5.5.0",
+    "pino-pretty": "^5.1.0",
+    "sequelize": "^6.6.2"
+  }
+}
